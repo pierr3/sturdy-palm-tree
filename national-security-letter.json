@@ -1,0 +1,15 @@
+{
+    "date": "2022-04-23T18:25:43.511Z",
+    "requestor": {
+        "name": "John Doe",
+        "title": "Special Agent In Charge",
+        "office": "PIT"
+    },
+    "targer": [
+        {"identifier_type": "email", "identifier": "emma.appleseed@gmail.com", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
+        {"identifier_type": "ipv4", "identifier": "19.117.63.126", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
+        {"identifier_type": "ipv6", "identifier": "684D:1111:222:3333:4444:5555:6:77", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
+        {"identifier_type": "phone", "identifier": "650111111", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
+        {"identifier_type": "username", "identifier": "michealpage", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"}
+    ]
+}

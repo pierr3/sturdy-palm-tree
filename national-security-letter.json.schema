@@ -1,0 +1,65 @@
+
+
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "date": {
+        "type": "string"
+      },
+      "requestor": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "office": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "title",
+          "office"
+        ]
+      },
+      "targer": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "identifier_type": {
+                "type": "string"
+              },
+              "identifier": {
+                "type": "string"
+              },
+              "date-from": {
+                "type": "string"
+              },
+              "date-to": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "identifier_type",
+              "identifier",
+              "date-from",
+              "date-to"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "date",
+      "requestor",
+      "targer"
+    ]
+  }
+  
+  
