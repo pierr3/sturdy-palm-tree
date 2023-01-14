@@ -1,15 +1,19 @@
 {
+    "$schema": "https://raw.githubusercontent.com/pierr3/sturdy-palm-tree/main/national-security-letter.json.schema",
     "date": "2022-04-23T18:25:43.511Z",
     "requestor": {
         "name": "John Doe",
         "title": "Special Agent In Charge",
         "office": "PIT"
     },
-    "targer": [
-        {"identifier_type": "email", "identifier": "emma.appleseed@gmail.com", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
-        {"identifier_type": "ipv4", "identifier": "19.117.63.126", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
-        {"identifier_type": "ipv6", "identifier": "684D:1111:222:3333:4444:5555:6:77", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
-        {"identifier_type": "phone", "identifier": "650111111", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"},
-        {"identifier_type": "username", "identifier": "michealpage", "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"}
+    "target": [
+        {"identifier_type": "email", "identifier": "emma.appleseed@gmail.com", 
+            "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T20:45:43.511Z"},
+        {"identifier_type": "ipv4", "identifier": "19.117.63.126", 
+            "date-from": "1900-01-01T00:00:00.000Z", "date-to": "2022-06-23T19:25:43.511Z"},
+        {"identifier_type": "phone", "identifier": "1650111111", 
+            "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T16:25:43.511Z"},
+        {"identifier_type": "username", "identifier": "emma.appleseed", 
+            "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T18:25:43.511Z"}
     ]
 }
