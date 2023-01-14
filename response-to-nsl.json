@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/pierr3/sturdy-palm-tree/main/national-security-letter.json.schema",
+    "date": "2022-05-23T18:25:43.511Z",
+    "addressed_to": {
+        "name": "John Doe",
+        "title": "Special Agent In Charge",
+        "office": "PIT"
+    },
+    "made_by": {
+        "name": "Mark Twain",
+        "title": "Compliance Officer",
+        "email": "mark.twain@company.com" 
+    },
+    "content":[
+        {"target": "emma.appleseed@gmail.com", "data": {}},
+        {"target": "19.117.63.126", "data": {}},
+        {"target": "1650111111", "data": {}},
+        {"target": "emma.appleseed", "data": {}}
+    ]
+}

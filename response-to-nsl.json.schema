@@ -1,0 +1,124 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "$schema": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "addressed_to": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "office": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "title",
+          "office"
+        ]
+      },
+      "made_by": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "title",
+          "email"
+        ]
+      },
+      "content": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "target": {
+                "type": "string"
+              },
+              "data": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "target",
+              "data"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "target": {
+                "type": "string"
+              },
+              "data": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "target",
+              "data"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "target": {
+                "type": "string"
+              },
+              "data": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "target",
+              "data"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "target": {
+                "type": "string"
+              },
+              "data": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "target",
+              "data"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "$schema",
+      "date",
+      "addressed_to",
+      "made_by",
+      "content"
+    ]
+  }
+  
+  
