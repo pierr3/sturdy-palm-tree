@@ -6,7 +6,7 @@
         "title": "Special Agent In Charge",
         "office": "PIT"
     },
-    "target": [
+    "targets": [
         {"identifier_type": "email", "identifier": "emma.appleseed@gmail.com", 
             "date-from": "2022-04-23T18:25:43.511Z", "date-to": "2022-06-23T20:45:43.511Z"},
         {"identifier_type": "ipv4", "identifier": "19.117.63.126", 
