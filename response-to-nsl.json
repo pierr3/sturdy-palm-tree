@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/pierr3/sturdy-palm-tree/main/national-security-letter.json.schema",
+    "$schema": "https://raw.githubusercontent.com/pierr3/sturdy-palm-tree/main/response-to-nsl.json.schema",
     "date": "2022-05-23T18:25:43.511Z",
     "addressed_to": {
         "name": "John Doe",

@@ -24,7 +24,7 @@
           "office"
         ]
       },
-      "targer": {
+      "targets": {
         "type": "array",
         "items": [
           {
