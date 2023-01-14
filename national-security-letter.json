@@ -4,7 +4,7 @@
     "requestor": {
         "name": "John Doe",
         "title": "Special Agent In Charge",
-        "office": "PIT"
+        "office": "FBI Pitsburg Field Office"
     },
     "targets": [
         {"identifier_type": "email", "identifier": "emma.appleseed@gmail.com", 
